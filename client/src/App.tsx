@@ -158,6 +158,11 @@ const App: React.FC = () => {
                         </Popup>
                     </Marker>
                 ))}
+                <Marker position={center}>
+                    <Popup>
+                        <strong>Busca</strong><br />{searchMapCenter}
+                    </Popup>
+                </Marker>
                 <SetViewOnClick coords={center} />
             </MapContainer>
 
