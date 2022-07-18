@@ -4,7 +4,7 @@ import Props from '../interfaces/props';
 import SearchInput from './SearchInput';
 
 const InsertCard: React.FC<Props> = ({ search, setSearch, handleOnClick, latitude, longitude, name, setName, CNPJ, setCNPJ, onSave }) => {
-    const handleOnChange = (event: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>, set: React.Dispatch<React.SetStateAction<string | undefined>> | undefined) => {
+    const handleOnChange = (event: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>, set: React.Dispatch<React.SetStateAction<string>> | undefined) => {
         if (set) {
             set(event.target.value);
         }

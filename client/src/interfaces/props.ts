@@ -5,9 +5,9 @@ interface Props {
     latitude?: string;
     longitude?: string;
     name?: string;
-    setName?: React.Dispatch<React.SetStateAction<string | undefined>>;
+    setName?: React.Dispatch<React.SetStateAction<string>>;
     CNPJ?: string;
-    setCNPJ?: React.Dispatch<React.SetStateAction<string | undefined>>;
+    setCNPJ?: React.Dispatch<React.SetStateAction<string>>;
     onSave?: () => void;
 }
 
