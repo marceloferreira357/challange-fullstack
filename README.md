@@ -45,3 +45,7 @@ Desafio - Desenvolvedor Fullstack
         }
      ]
  }
+
+# Screenshots
+![alt text](https://github.com/marceloferreira357/challange-fullstack/blob/main/desktop.png?raw=true)
+![alt text](https://github.com/marceloferreira357/challange-fullstack/blob/main/mobile.png?raw=true)
